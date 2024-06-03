@@ -1,0 +1,1 @@
+select id,count(venture_code) as count_row from sample.sample_model_3 group by 1 having count(venture_code)>1
